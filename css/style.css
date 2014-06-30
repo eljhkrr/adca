@@ -1211,10 +1211,14 @@ ul.contact li .fa-youtube:hover {
 	height:189px;
 	position:relative;
 	margin:0 auto;
-	background:transparent url(../images/animal1.png) no-repeat center center;
+	#background:transparent url(../images/animal1.png) no-repeat center center;
+	background:transparent url(../images/bitcoin-network-1.svg) no-repeat center center;
+}
 }
 .ca-item-2 .ca-icon{
-	background-image:url(../images/animal2.png);
+	#background-image:url(../images/animal2.png);
+	background-image:url(../images/Bezalel-Ngabo-34.jpg);
+
 }
 .ca-item-3 .ca-icon{
 	background-image:url(../images/animal3.png);
