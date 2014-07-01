@@ -273,7 +273,7 @@
 	{
 		position: relative;
 		display: inline-block;
-		background: #30AC53;
+		background: rgba(61, 192, 98, 0.66);
 		padding: 0.8em 2em;
 		text-decoration: none !important;
 		font-size: 1.2em;
@@ -1260,7 +1260,7 @@ ul.contact li .fa-youtube:hover {
 	position:relative;
 }
 .ca-item h4 span{
-	text-indent:40px;
+	#text-indent:40px;
 	display:block;
 }
 .ca-item h4  span.ca-quote{
@@ -1351,7 +1351,7 @@ ul.contact li .fa-youtube:hover {
 
 /************** custom  ********************/
 .featured-currencies{
-	background: #80BA8E !important;
+	background: rgba(61, 192, 98, 0.83) !important;
 }
 
 .left {
