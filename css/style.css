@@ -808,7 +808,9 @@ ul.contact li .fa-youtube:hover {
 		#background: url(../images/banner2.jpg) no-repeat bottom center;
 		#background-attachment: fixed;
 		background-color: #f0f0f0;
-		background:url(../images/expt6.svg) no-repeat bottom center;
+		#background:url(../images/expt6.svg) no-repeat bottom center;
+		#background:url(../images/expt7.svg) no-repeat bottom center;
+		background:url(../images/expt8.svg) no-repeat bottom center;
 		#background-repeat: no-repeat;
 		#background-image:url(../images/expt6.svg), url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNDM1JyBoZWlnaHQ9JzQzNSc+Cgk8ZGVmcz4KCQk8ZyBpZD0nYSc+CgkJCTxyZWN0IGZpbGw9JyNlNmU2ZTYnIHdpZHRoPSc4NycgaGVpZ2h0PSc4NycvPgoJCQk8cmVjdCB4PSc4NycgZmlsbD0nI2YyZjJmMicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzE3NCcgZmlsbD0nI2ZmZmZmZicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzI2MScgZmlsbD0nI2Y2ZjZmNicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzM0OCcgZmlsbD0nI2ZmZmZmZicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzQzNScgZmlsbD0nI2U2ZTZlNicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzUyMicgZmlsbD0nI2YyZjJmMicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzYwOScgZmlsbD0nI2ZmZmZmZicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJCTxyZWN0IHg9JzY5NicgZmlsbD0nI2Y2ZjZmNicgd2lkdGg9Jzg3JyBoZWlnaHQ9Jzg3Jy8+CgkJPC9nPgoJPC9kZWZzPgoJPHVzZSB4PSctMzQ4JyB5PScwJyB4bGluazpocmVmPScjYScvPiAgCgk8dXNlIHg9Jy0yNjEnIHk9Jzg3JyB4bGluazpocmVmPScjYScvPgoJPHVzZSB4PSctMTc0JyB5PScxNzQnIHhsaW5rOmhyZWY9JyNhJy8+Cgk8dXNlIHg9Jy04NycgeT0nMjYxJyB4bGluazpocmVmPScjYScvPgoJPHVzZSB4PScwJyB5PSczNDgnIHhsaW5rOmhyZWY9JyNhJy8+Cjwvc3ZnPg==');
 		background-size: cover;
