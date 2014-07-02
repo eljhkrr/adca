@@ -273,7 +273,7 @@
 	{
 		position: relative;
 		display: inline-block;
-		background: rgba(61, 192, 98, 1);
+		background: rgba(15, 105, 150, 1);
 		padding: 0.8em 2em;
 		text-decoration: none !important;
 		font-size: 1.2em;
@@ -1357,7 +1357,7 @@ ul.contact li .fa-youtube:hover {
 
 /************** custom  ********************/
 .featured-currencies{
-	background: rgba(61, 192, 98, 0.83) !important;
+	background: rgba(15, 105, 150, 1) !important;
 }
 
 .left {
