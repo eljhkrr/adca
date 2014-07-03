@@ -867,6 +867,7 @@ ul.contact li .fa-youtube:hover {
 
 	#nav
 	{
+		margin-top: 10px;
 	}
 
 		#nav-wrapper-black
@@ -934,6 +935,11 @@ ul.contact li .fa-youtube:hover {
 		text-align: center;
 		font-size: 130%;
 
+	}
+
+	nav
+	{
+		display: inline-block;	
 	}
 
 		#nav > ul > li > ul
@@ -1021,6 +1027,10 @@ ul.contact li .fa-youtube:hover {
 		position: relative;
 		text-align: center;
 		background: #000;
+		#background:url(../images/expt8.svg) no-repeat bottom center;
+		background-size: cover;
+		opacity: 0.2;
+
 	}
 	
 	#footer header h2
@@ -1029,6 +1039,7 @@ ul.contact li .fa-youtube:hover {
 		font-weight: bold;
 		font-size: 1.5em;
 		color: rgba(255,255,255,.7);
+		opacity: 1 !important;
 	}
 	
 	#footer header .byline
@@ -1036,6 +1047,7 @@ ul.contact li .fa-youtube:hover {
 		color: rgba(255,255,255,.7);
 		text-align: center !important;
 		font-weight: bold;
+		padding-top: 0;
 	}
 
 /*********************************************************************************/
@@ -1388,3 +1400,67 @@ form input.button {
 .actions {
 	display: inline-block;
 }
+
+/************Hexagon logo*************/
+
+.hexagon {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px; 
+  height: 115.47px;
+  #background-color: #64C7CC;
+  background-color: rgb(15, 105, 150);
+  #margin: 57.74px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  background-image: url(../images/BlankMap-Africa.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight:bold;
+  color: #fff;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 29.2893px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexagon:before {
+  top: -70.7107px;
+}
+
+.hexagon:after {
+  bottom: -70.7107px;
+}
+
+/*cover up extra shadows*/
+.hexagon span {
+  display: block;
+  position: absolute;
+  top:0px;
+  left: 0;
+  width:200px;
+  height:115.4701px;
+  z-index: 2;
+  background: inherit;
+}
+
+div.hexagon {
+	display: inline-block;
+}
+
+.logo-text-africa{
+	#font-size: 1.1em;
+}
+
