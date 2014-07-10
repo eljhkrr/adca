@@ -24,6 +24,7 @@
 		header h2
 		{
 			font-size: 3.4em;
+			line-height: normal;
 		}
 
 		header .byline
