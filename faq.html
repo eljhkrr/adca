@@ -41,7 +41,7 @@
 						</ul>
 					</nav>
 					<div class="hexagon">
-						<span class="logo-text-africa">African<br>Digital Currency<br>Association</span>
+						<span></span><!--<span class="logo-text-africa">African<br>Digital Currency<br>Association</span>-->
 					</div>
 					<nav >
 						<ul>
@@ -78,47 +78,37 @@
 						<div class="container">
 						    <div class="content">
 						        <p>
-						            This plugin enables an accordion that can use cookies to persist between pages or visits.
-						            This plugin was made with the jQuery 1.10.1.
+						            Digital currencies are electronic token representations of value, primarily used for value exchange.  They can either be fully backed by physical world equivalent: Egold, Mobile Money, Chama Dhahabu or NOT backed by physical equivalents, but rather on their perceived value and trust by the community: Bitcoin, Bonga points. Digital currency technologies are also architectures/platforms, like the internet on which innovative products & services are built eg the Bitcoin protocol, ricardo
 						        </p>
-						        <p>
-						            If you find any errors or have suggested changes, please post an issue on the
-						            github project: <a href="http://github.com/juven14/Accordion" title="jQuery Accordion">http://github.com/juven14/Accordion</a>
-						        </p>
+						        
 						    </div>
 						</div>
 						<!-- end panel -->
 						<!-- panel -->
-						<div class="accordion" id="where">Where can I get digital currency?<span></span></div>
+						<div class="accordion" id="where">How does digital currency work?<span></span></div>
 						<div class="container">
 						    <div class="content">
 						        <p>
-						            You need to add two parts, a header and a container.  The header div is for the label and the open/close
-						            text/images.  The container will hold any html/text you want to slide up/down.
+						            Digital currencies allow seamless electronic value exchanges and transactions without the need for cash. This significantly lowers the burden and costs associated with handling cash & takes us closer to a cashless economy. Cashless economies have tremendous advantages.
 						        </p>
-						<pre><code>
-						    &lt;div class=&quot;accordion&quot; id=&quot;section1&quot;&gt;Heading&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
-						    &lt;div class=&quot;container&quot;&gt;
-						        &lt;div class=&quot;content&quot;&gt;
-						            &lt;div&gt;Sample Content&lt;/div&gt;
-						            &lt;p&gt;Content here....&lt;/p&gt;
-						        &lt;/div&gt;
-						    &lt;/div&gt
-						    &lt;div class=&quot;accordion&quot; id=&quot;section2&quot;&gt;Heading&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
-						    &lt;div class=&quot;container&quot;&gt;
-						        &lt;div class=&quot;content&quot;&gt;
-						            &lt;div&gt;Sample Content&lt;/div&gt;
-						            &lt;p&gt;Content here....&lt;/p&gt;
-						        &lt;/div&gt;
-						    &lt;/div&gt
-						    &lt;div class=&quot;accordion&quot; id=&quot;section3&quot;&gt;Heading&lt;span&gt;&lt;/span&gt;&lt;/div&gt;
-						    &lt;div class=&quot;container&quot;&gt;
-						        &lt;div class=&quot;content&quot;&gt;
-						            &lt;div&gt;Sample Content&lt;/div&gt;
-						            &lt;p&gt;Content here....&lt;/p&gt;
-						        &lt;/div&gt;
-						    &lt;/div&gt
-						</code></pre>
+						
+						    </div>
+						</div>
+						<!-- end panel -->
+						<!-- panel -->
+						<div class="accordion" id="where">How does one acquire digital currency?<span></span></div>
+						<div class="container">
+						    <div class="content">
+						        <p>
+						            There are multiple ways to do this including:
+						            <ul>
+						            	<li>As payment for goods or services.</li>
+						            	<li>Purchase from an exchange.</li>
+						            	<li>Digital currency agents.</li>
+						            	<li>Exchange with someone near you</li>
+						            </ul>
+						        </p>
+						
 						    </div>
 						</div>
 						<!-- end panel -->
@@ -127,90 +117,24 @@
 						<div class="container">
 						    <div class="content">
 						        <p>
-						            Add in the javascript:
+						            Payment freedom - It is possible to send and receive any amount of money instantly anywhere in the world at any time. No bank holidays. No borders. No imposed limits. Bitcoin for example, allows its users to be in full control of their money.<br>
+									Low transaction fees – by reducing the costs associated with handling cash, the cost of transacting is significantly reduced.<br>
+									Financial control – it enables its users to have full control over their financial resources.<br>
+									Financial inclusion – digital currency enables everyone to participate in the formal financial system through financial access and financial services.<br>
 						        </p>
-						<pre class="javascript"><code>
-						    &lt;script type=&quot;text/javascript&quot; src=&quot;javascript/jquery.cookie.js&quot;&gt;&lt;/script&gt; &lt;!--required only if using cookies--&gt
-						    &lt;script type=&quot;text/javascript&quot; src=&quot;javascript/jquery.accordion.js&quot;&gt;&lt;/script&gt;
-						    &lt;script type=&quot;text/javascript&quot;&gt;
-						        $(document).ready(function() {
-						            $('.accordion').accordion({defaultOpen: 'some_id'}); //some_id section1 in demo
-						        });
-						    &lt;/script&gt;
-						</code></pre>
 						    </div>
 						</div>
 						<!-- end panel -->
 						<!-- panel -->
-						<div class="accordion" id="section4">Is digital currency secure?<span></span></div>
+						<div class="accordion" id="section4">I'd like to learn more. Where can I get help?<span></span></div>
 						<div class="container">
 						    <div class="content">
-						        <p>The plugin default options are as follows:</p>
-						<pre class="javascript"><code>{
-						    cssClose: 'accordion-close', //class you want to assign to a closed accordion header
-						    cssOpen: 'accordion-open', //class you want to assign an opened accordion header
-						    cookieName: 'accordion', //name of the cookie you want to set for this accordion
-						    cookieOptions: { //cookie options, see cookie plugin for details
-						        path: '/',
-						        expires: 7,
-						        domain: '',
-						        secure: ''
-						    },
-						    defaultOpen: '', //id that you want opened by default
-						    speed: 'slow', //speed of the slide effect
-						    bind: 'click', //event to bind to, supports click, dblclick, mouseover and mouseenter
-						    animateOpen: function (elem, opts) { //replace the standard slideDown with custom function
-						        elem.next().stop(true, true).slideDown(opts.speed);
-						    },
-						    animateClose: function (elem, opts) { //replace the standard slideUp with custom function
-						        elem.next().stop(true, true).slideUp(opts.speed);
-						    },
-						    loadOpen: function (elem, opts) { //replace the default open state with custom function
-						        elem.next().show();
-						    },
-						    loadClose: function (elem, opts) { //replace the default close state with custom function
-						        elem.next().hide();
-						    }
-						 }</code></pre>
-						        <div>Details</div>
-						        <ul>
-						            <li>cssClose - class assigned when closed</li>
-						            <li>cssOpen - class assigned when opened</li>
-						            <li>cookieName - cookie name for persisting the opened panel</li>
-						            <li>cookieOptions - see jquery.cookie plugin for more info</li>
-						            <li>defaultOpen - id that you want opened by default</li>
-						            <li>speed - animation speed</li>
-						            <li>bind - event that triggers the collapsible, only 4 are supported: click, dblclick, mouseenter, and
-						                mouseover</li>
-						            <li>animateOpen - custom callback to animate opening</li>
-						            <li>animateClose - custom callback to animate closing</li>
-						            <li>loadOpen - custom callback to animate default opening</li>
-						            <li>loadClose - custom callback to animate default closing</li>
-						        </ul>
+						        <p>To find out how it can help you, contact the ADCA at info@africandca.org or press@africandca.org</p>
+						
 						    </div>
 						</div>
 						<!-- end panel -->
-						<!-- panel -->
-						<div class="accordion" id="section6">Where can I learn more?<span></span></div>
-						<div class="container">
-						    <div class="content">
-						        <p>
-						            In the above header example HTML you will see an empty span, this is useful if you wish to
-						            assign an open/close image.
-						        </p>
-						        <p>
-						            This plugin will append a user defined (or default, see options above) class to
-						            header of the accordion.  You can use this to swap out the images or style
-						            the different states of your accordion.
-						        </p>
-						<pre class="css"><code>    .accordion div.collapse-open {}
-						    .accordion div.collapse-close {}
-						    .accordion div.collapse-open span {}
-						    .accordion div.collapse-close span {}
-						</code></pre>
-						    </div>
-						</div>
-						<!-- end panel -->
+						
 						<!-- panel -->
 						<div class="accordion" id="section7">BitCoin Legislative Status<span></span></div>
 						<div class="container">
@@ -219,81 +143,7 @@
 						    </div>
 						</div>
 						<!-- end panel -->
-						<!-- panel -->
-						<div class="accordion" id="section8">Demo CSS<span></span></div>
-						<div class="container">
-						    <div class="content">
-						<pre class="css"><code>
-						    @CHARSET "UTF-8";
-						    #left_nav {
-						        width:250px;
-						    }
-						    #body {
-						        width:90%;
-						        float:left;
-						        margin:10px;
-						    }
-						    .accordion {
-						        margin: 0;
-						        padding:10px;
-						        height:20px;
-						        border-top:#f0f0f0 1px solid;
-						        background: #cccccc;
-						        font-family: Arial, Helvetica, sans-serif;
-						        text-decoration:none;
-						        text-transform:uppercase;
-						        color: #000;
-						        font-size:1em;
-						    }
-						    .accordion-open {
-						        background:#000;
-						        color: #fff;
-						    }
-						    .accordion-open span {
-						        display:block;
-						        float:right;
-						        padding:10px;
-						    }
-						    .accordion-open span {
-						        background:url(../images/minus.png) center center no-repeat;
-						    }
-						    .accordion-close span {
-						        display:block;
-						        float:right;
-						        background:url(../images/plus.png) center center no-repeat;
-						        padding:10px;
-						    }
-						    div.container {
-						        padding:0;
-						        margin:0;
-						    }
-						    div.content {
-						        background:#f0f0f0;
-						        margin: 0;
-						        padding:10px;
-						        font-size:.9em;
-						        line-height:1.5em;
-						        font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-						    }
-						    div.content ul, div.content p {
-						        padding:0;
-						        margin:0;
-						        padding:3px;
-						    }
-						    div.content ul li {
-						        list-style-position:inside;
-						        line-height:25px;
-						    }
-						    div.content ul li a {
-						        color:#555555;
-						    }
-						    code {
-						        overflow:auto;
-						    }
-						</code></pre>
-						    </div>
-						</div>
-						<!-- end panel -->
+						
 						</div>	
 						
 					</div>
@@ -361,9 +211,13 @@
 							</ul>
 							
 						</section>		
+						<section class="12u">
+							<br>
+							<span class="byline">&copy 2014 African Digital Currency Association</span>
+						</section>	
 
 					</div>
-					<div class="row">
+					<!--<div class="row">
 						<section class="12u">
 							<header>
 								<h2></h2>
@@ -371,7 +225,7 @@
 							</header>
 						</section>
 				
-					</div>
+					</div>-->
 				
 			</div>
 		</div>

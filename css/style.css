@@ -38,6 +38,7 @@
 		{
 			letter-spacing: -0.025em;
 			font-weight: bold;
+			font-size: 1.2em;
 		}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -857,7 +858,7 @@ ul.contact li .fa-youtube:hover {
 			text-decoration: none;
 			font-weight: 300;
 			line-height: 1em;
-			font-size: 7em;
+			font-size: 4em;
 			color: #FFF;
 			letter-spacing: -0.05em;
 			margin: 0 0 0.125em 0;
@@ -1435,7 +1436,9 @@ form input.button {
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
   #background-image: url(../images/BlankMap-Africa.svg);
   #background-image: url(../images/logo1.svg);
-  background-image: url(../images/logo2.svg);
+  #background-image: url(../images/logo2.svg);
+  #background-image: url(../images/logo4.svg);
+  background-image: url(../images/logo5.svg);
   #background: url(../images/logo1.svg), rgb(15, 105, 150);
   background-size: contain;
   #background-size: cover;
