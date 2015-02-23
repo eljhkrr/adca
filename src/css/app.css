@@ -26,9 +26,14 @@ nav .active{
 	font-size: 1.1em;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	border-bottom: 2px solid #fff;
+	border-bottom: 5px solid #aaa;
 	color: #fff;
+	background-color: #3449A0;
 	#font-size: 1.2em;
+}
+
+.navbar-brand{
+	color: #fff !important;
 }
 
 .grand-introduction{
@@ -38,7 +43,7 @@ nav .active{
 
 .grand-introduction img{
 	display: block;
-	margin: 50px auto 50px;
+	margin: 100px auto 50px;
 }
 
 .introduction-to-adca{
@@ -50,26 +55,28 @@ nav .active{
 }
 
 section{
-	border-bottom: 3px dashed purple;
-	padding: 30px 0;
+	#border-bottom: 3px dashed purple;
+	#padding: 30px 0;
+	padding-bottom: 30px;
 }
 
-h2{
+section > h2{
 	text-transform: uppercase;
+	margin: 50px 0 40px;
 }
 
-.introduction-to-adca{
-	
+section > h3{
+	margin: 20px 0; 
 }
 
 p.shorten{
-	margin: 40px auto;
+	margin: 0 auto;
 	display: block;
 	width: 50%;
 }
 
 .image-section{
-	padding: 0;
+	#padding: 0;
 	height: 600px;
 	background-image: url(../images/header.jpg);
 	#background-image: url(../images/expt8.svg);
@@ -84,7 +91,7 @@ p.shorten{
 .media-section{
 	margin-top: -600px;
 	background-color: rgba(0, 0, 0, 0.9);
-	
+	padding: 20px;
 }
 
 .media-section img{
@@ -98,6 +105,7 @@ p.shorten{
 	border: 1px solid #eee;
 	border-left: 5px solid #5bc0de;
 	border-radius: 3px;
+	background-color: rgba(223, 223, 223, 0.25)
 }
 
 .callout-right{
@@ -106,6 +114,7 @@ p.shorten{
 	border: 1px solid #eee;
 	border-right: 5px solid #71D671;
 	border-radius: 3px;
+	background-color: rgba(223, 223, 223, 0.25)
 }
 
 .vertical-center{
@@ -116,10 +125,11 @@ p.shorten{
 
 .wikipedia-section{
 	background-color: #daf0f3;
+	#background-image: url(../images/subtle_dots.png);
 }
 
 .wikipedia-section img{
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .wikipedia-section .subtext{
@@ -150,9 +160,9 @@ p.shorten{
 
 .dummy-section{
 	#height: 400px;
-	padding-top: 150px;
+	#padding-top: 30px;
 	padding-bottom: 0;
-	#background-image: url(../images/geometry2.png);
+	background-image: url(../images/grey.png);
 	#background-color: #ddd;
 }
 
@@ -165,11 +175,15 @@ p.shorten{
 	box-shadow: none;
 }
 
+.underline{
+	text-decoration: underline;
+}
+
 /*====================================================*/
 
 
 hr.short-line{
-	margin: 5px auto 5px;
+	margin: 25px auto 0px;
 	padding: 0;
 	max-width: 250px;
 	border: 0;
@@ -192,7 +206,7 @@ footer{
 
 footer .logo{
 	height: 80px;
-	margin-bottom: 2em;
+	margin-bottom: 1.2em;
 }
 
 footer ul.contact{
