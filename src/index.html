@@ -29,8 +29,8 @@
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="fluid-container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle">
+            <div class="navbar-header" >
+              <button type="button" ng-click="isCollapsed = !isCollapsed" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -41,9 +41,10 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse pull-right">
+            <div collapse="isCollapsed" class="navbar-collapse pull-right">
                 <ul class="nav navbar-nav">
-                    <li ><a href="index.html" class="active">Home</a></li>
+                	<li class="visible-xs text-info">Menu:</li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="http://www.meetup.com/Kenya-Bitcoin/" target="_blank">Meetups<i class="fa fa-external-link fa-1x"></i></a></li>
                 </ul>
@@ -214,8 +215,13 @@
             
             <div class="col-md-4">
                 <ul class="contact-details">
-                    <li><a href="https://www.google.co.ke/maps/place/Timau+Plaza,+Nairobi/@-1.2922882,36.7897845,17z/data=!3m1!4b1!4m2!3m1!1s0x182f10a3834eafa1:0x1821034ff3107263?hl=en"><i class="fa fa-map-marker"></i><br> 2nd Flr Timau Plaza, Argwings Kodhek Road, Nairobi, Kenya.</a></li>
-                    <li><i class="fa fa-phone"></i><br> +254 705 299 429</li>
+                    <li>
+	                    <a href="https://www.google.co.ke/maps/place/Timau+Plaza,+Nairobi/@-1.2922882,36.7897845,17z/data=!3m1!4b1!4m2!3m1!1s0x182f10a3834eafa1:0x1821034ff3107263?hl=en">
+	                    	<i class="fa fa-map-marker"></i><br> 2nd Flr Timau Plaza, Argwings Kodhek Road, Nairobi, Kenya.
+	                    	<span style="font-size:0.5em;color:blue;">[View map]</span>
+	                    </a>
+                    </li>
+                    <li><i class="fa fa-phone"></i><br> <a href="tel:+254705299429">+254 705 299 429</a></li>
                 </ul>
                 
             </div>
@@ -224,11 +230,11 @@
                 <img src="images/g3746.png" class="logo clearfix center-block">
                 <hr class="short-line" style="border-color: #333">
                 <ul class="contact">
-                    <li><a href="https://www.twitter.com/african_dca" class="fa fa-twitter"></a></li>
-                    <li><a href="https://www.facebook.com/africandigitalcurrencyassociation?ref=hl" class="fa fa-facebook"></a></li>
-                    <li><a href="https://plus.google.com/u/0/113176825392065204418/about" class="fa fa-google-plus"></a></li>
+                    <li><a href="https://www.twitter.com/african_dca" target="_blank" class="fa fa-twitter"></a></li>
+                    <li><a href="https://www.facebook.com/africandigitalcurrencyassociation?ref=hl" target="_blank" class="fa fa-facebook"></a></li>
+                    <li><a href="https://plus.google.com/u/0/113176825392065204418/about" target="_blank" class="fa fa-google-plus"></a></li>
 
-                    <li><a href="https://www.youtube.com/channel/UCWwaxfySup9ZPFUIlfAFMfw" class="fa fa-youtube"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCWwaxfySup9ZPFUIlfAFMfw" target="_blank" class="fa fa-youtube"></a></li>
                 </ul>
                 <!-- <p class="text-center">&copy; 2015</p> -->
             </div>

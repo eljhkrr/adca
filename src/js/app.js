@@ -2,6 +2,8 @@ var app = angular.module("myApp", ['ui.bootstrap']);
 
 app.controller("AppController", ['$scope', '$modal', '$log', function($scope, $modal, $log){
 
+	$scope.isCollapsed = true;
+
 	$scope.status = {
 		isopen: false
 	};
