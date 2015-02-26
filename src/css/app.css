@@ -1,5 +1,7 @@
 body{
 	padding-top: 50px;
+	font-family: 'Nunito', serif;
+	font-size: 14px;
 }
 
 .navbar-fixed-top{
@@ -63,10 +65,12 @@ section{
 section > h2{
 	text-transform: uppercase;
 	margin: 50px 0 40px;
+	font-family: 'Nunito', serif;
+	color: #4D4D4D;
 }
 
 section > h3{
-	margin: 20px 0; 
+	margin: 40px 0; 
 }
 
 p.shorten{
@@ -142,20 +146,20 @@ p.shorten{
 }
 
 .wikipedia-section a:hover .big{
-	color: #000;
+	color: #555;
 }
 
 .wikipedia-section a:hover img{
 	opacity: 1;
 }
 
-.wikipedia-section a:hover{
-	background-color:yellow;
+.wikipedia-section .big{
+	font-size: 2em;
+	color: #979797;
 }
 
-.wikipedia-section .big{
-	font-size: 1.8em;
-	color: #5f5f5f;
+.wikipedia-section img{
+	margin-top: 10px;
 }
 
 .dummy-section{
